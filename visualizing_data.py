@@ -47,8 +47,10 @@ plt.savefig('/home/nineleaps/Documents/Patient_data_g_sheet_automation/visualiza
 
 # 3. Appointments Over Time
 plt.figure(figsize=(12, 6))
-df['Appointment_Date'].value_counts().sort_index().plot(kind='line')
+df['Appointment_Date'].value_counts().sort_index().plot(kind='bar')
 plt.title('Appointments Over Time')
 plt.xlabel('Date')
 plt.ylabel('Number of Appointments')
 plt.savefig('/home/nineleaps/Documents/Patient_data_g_sheet_automation/visualizations/appointments_over_time.png') 
+
+print("The Visualizations are generated successfully")

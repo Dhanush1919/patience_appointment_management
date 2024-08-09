@@ -32,7 +32,7 @@ print(df.isnull().sum())
 df['Doctor'] = df['Doctor'].fillna('Unknown')  # Fill missing values in 'Doctor' column
 
 # 7. Convert Data Types
-df['Appointment_Date'] = pd.to_datetime(df['Appointment_Date'], errors='coerce', dayfirst=True)
+df['Appointment_Date'] = pd.to_datetime(df['Appointment_Date'], errors='coerce')
 
 # 8. Remove Duplicates
 df = df.drop_duplicates()
