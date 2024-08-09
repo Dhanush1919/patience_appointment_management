@@ -1,1 +1,1 @@
-# Patience appointment management
+# Patients appointment management
