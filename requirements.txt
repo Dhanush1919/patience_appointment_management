@@ -6,5 +6,7 @@ google-auth-httplib2
 google-api-python-client
 schedule
 faker
+matplotlib
+seaborn
 
 #### ENVIRONMENT NAME : patient
