@@ -36,10 +36,10 @@ email_content = f"Here are the details of the last five cancelled appointments:\
 sender_email = input("Enter the sender mail : ")  
 receiver_email = input("Enter the receiver mail : ")
 subject = "Last Five Cancelled Appointments"
-smtp_server = 'smtp.gmail.com'  # Replace with your SMTP server
-smtp_port = 587  # Replace with your SMTP port (usually 587 for TLS)
-smtp_username = 'dhanush.venkataraman@nineleaps.com'  # Replace with your email
-smtp_password = 'bvtu imnj fwye wvlr'  # Replace with your email password
+smtp_server = 'smtp.gmail.com' 
+smtp_port = 587 
+smtp_username = 'dhanush.venkataraman@nineleaps.com' 
+smtp_password = 'bvtu imnj fwye wvlr' 
 
 # 5. Create the email message
 message = MIMEMultipart()
