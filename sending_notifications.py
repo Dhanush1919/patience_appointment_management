@@ -39,7 +39,7 @@ subject = "Last Five Cancelled Appointments"
 smtp_server = 'smtp.gmail.com'  # Replace with your SMTP server
 smtp_port = 587  # Replace with your SMTP port (usually 587 for TLS)
 smtp_username = 'dhanush.venkataraman@nineleaps.com'  # Replace with your email
-smtp_password = 'Mith8@ra'  # Replace with your email password
+smtp_password = 'bvtu imnj fwye wvlr'  # Replace with your email password
 
 # 5. Create the email message
 message = MIMEMultipart()
