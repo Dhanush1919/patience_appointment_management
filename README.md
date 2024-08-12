@@ -1,7 +1,7 @@
 # Patients appointment management
 
 # Orders to run files :
-- requirements.tx
+- requirements.txt
 - generate_data_for_csv.py
 - importing_data.py
 - data_cleaning.py
